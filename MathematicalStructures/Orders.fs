@@ -18,8 +18,9 @@ type IJoinSemilattice<'T> =
   inherit IPartialOrder<'T>
   abstract Join : ICommutativeSemigroup<'T>
 
-
-
+type IBoundedJoinSemilattic<'T> =
+  inherit IJoinSemilattice<'T>
+  abstract Join : ICommutativeMonoid<'T>
 
 
 
