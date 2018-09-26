@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MathematicalStructures", "MathematicalStructures\MathematicalStructures.fsproj", "{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFDD63A6-5E34-4FE2-8793-0AFAE56BA22F}
+	EndGlobalSection
+EndGlobal
