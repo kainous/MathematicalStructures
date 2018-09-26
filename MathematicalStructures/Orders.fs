@@ -1,14 +1,18 @@
 ﻿module Orders
 
 open Morphisms
+open Relations
 
 type Comparison =
 | Greater
 | Less
 | Equal
 
-type IPartialOrder<'T> =
+type IPartialOrder<'T>() =
+  inherit Relation<'T, 'T>(fun a b -> true)
   abstract Compare : IBinaryFunction<'T, 'T, Comparison option>
+//with
+//  Extension GetEqualityRelation()
 
 type IMeetSemilattice<'T> =
   inherit IPartialOrder<'T>

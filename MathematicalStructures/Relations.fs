@@ -37,3 +37,6 @@ type Relation<'L, 'R>(predicate:RelationPredicate<'L,'R>) =
 //  inherit Relation<'T, 'T>(predicate)
 //  static member Identity = Endorelation(=)
 //  static member 
+
+type EqualityRelation<'T>(predicate:RelationPredicate<'T,'T>) =
+  inherit Relation<'T,'T>(predicate)

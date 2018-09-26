@@ -29,6 +29,17 @@ and IMonoid<'T> =
   inherit ISemigroup<'T>
   abstract IdentityElement:'T
 
+type ICommutativeMagma<'T> =
+  inherit IMagma<'T>
+  abstract Commutativity : Relation<'T * 'T, 'T>
+
+type ICommutativeSemigroup<'T> =
+  inherit ISemigroup<'T>
+  inherit ICommutativeMagma<'T>
+
+type ICommutativeMonoid<'T> =
+  inherit ICommutativeSemigroup<'T>
+  inherit IMonoid<'T>
 
 
 type Proposition = bool
