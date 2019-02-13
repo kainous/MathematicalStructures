@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Ordering.fs" />
+    <Compile Include="Semigroups.fs" />
+    <Compile Include="Functional.fs" />
+    <Compile Include="Bool.fs" />
+    <Compile Include="TypeEquality.fs" />
+    <Compile Include="Nat.fs" />
+  </ItemGroup>
+
+</Project>

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MathematicalStructures", "MathematicalStructures\MathematicalStructures.fsproj", "{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MathematicalStructures", "MathematicalStructures\MathematicalStructures.fsproj", "{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ApplicativeParsers", "ApplicativeParsers\ApplicativeParsers.fsproj", "{DEA34A0D-534C-4C43-8DC3-562150B9CEBF}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TypeLevel", "TypeLevel\TypeLevel.fsproj", "{88B3EDC3-2501-4DA2-BF7D-5786DD974888}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collatz", "Collatz\Collatz.fsproj", "{56D85009-A882-4C5E-B94B-C460A092FF1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7B2ED2-9AD9-40F3-8A79-29031BC3F869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA34A0D-534C-4C43-8DC3-562150B9CEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA34A0D-534C-4C43-8DC3-562150B9CEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA34A0D-534C-4C43-8DC3-562150B9CEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA34A0D-534C-4C43-8DC3-562150B9CEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B3EDC3-2501-4DA2-BF7D-5786DD974888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B3EDC3-2501-4DA2-BF7D-5786DD974888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B3EDC3-2501-4DA2-BF7D-5786DD974888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B3EDC3-2501-4DA2-BF7D-5786DD974888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D85009-A882-4C5E-B94B-C460A092FF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D85009-A882-4C5E-B94B-C460A092FF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D85009-A882-4C5E-B94B-C460A092FF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D85009-A882-4C5E-B94B-C460A092FF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

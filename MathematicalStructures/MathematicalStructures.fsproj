@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Semigroupoid.fs" />
+    <Compile Include="Functional.fs" />
+    <Compile Include="Reflexivity.fs" />
+    <Compile Include="Topology.fs" />
     <Compile Include="Relations.fs" />
     <Compile Include="Morphisms.fs" />
     <Compile Include="Algebraic.fs" />
